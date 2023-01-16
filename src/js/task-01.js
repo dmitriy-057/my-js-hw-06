@@ -11,6 +11,7 @@ console.log('Numbers of Categories:', allItemsOfCategories.length);
     // 3.2 - получить доступ к списку каждой категории;
     // 3.3 - узнать длину дочерних элементов такого списка;
 allItemsOfCategories.forEach(item => {
+    
     const itemTitle = item.querySelector('h2');
     console.log('Category', itemTitle.textContent);
 
